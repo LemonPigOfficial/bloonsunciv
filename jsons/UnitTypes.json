@@ -6,6 +6,10 @@
     {
         "name": "Infantry",
         "movementType": "Land"
+    },
+    {
+        "name": "Air Vehicle",
+        "movementType": "Land"
     }
     
 ]

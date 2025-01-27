@@ -1,0 +1,44 @@
+[
+	{
+		"columnNumber": 0,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Contested Territory",
+				"row": 6,
+				"uniques": ["Starting tech"]
+			}
+		]
+	},
+	{
+		"columnNumber": 1,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Banana Plantations",
+				"row": 2,
+			},
+			{
+				"name": "Banana Markets",
+				"row": 4,
+			},
+			{
+				"name": "Monkellectualism",
+				"row": 6,
+			},
+			{
+				"name": "Magic Studies",
+				"row": 8,
+			},
+			{
+				"name": "Military Budget",
+				"row": 10,
+			},
+		]
+	},

@@ -1,41 +1,52 @@
 [
     {
-		"name": "Adelle Corp",
-		"leaderName": "Kane",
+		"name": "Siblings of Quincy",
+		"leaderName": "Quincy",
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text.",
-		"declaringWar": "You stand in the way of my people. Let us solve this like warriors!",
-		"attacked": "You dare have the courage to challenge nod, but no fear, for I will sweep you out of history.",
-		"defeated": "You have the guts to call my body a corpse but beware, I know what will happen to our future- our tiberium future.",
-		"introduction": "If I am cut, Do I not bleed?",
-		"tradeRequest": "I am not always this generous, but we hope you take this rare opportunity we give you.",
-		"outerColor": [0,0,0],
-		"innerColor": [142,22,0],
-		"uniqueName": "Word of Nod",
-		"uniques": ["[+30]% Strength <vs [City-States]>", "[+2] Movement <for [Armored] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
+		"declaringWar": "I'll have you know I never miss!",
+		"attacked": "You really think you can mess with Quincy, son of Quincy?",
+		"defeated": "Ah, you did well. Guess I do miss sometimes...",
+		"introduction": "I am Quincy, son of Quincy.",
+		"tradeRequest": "Hey, let's trade!",
+		"outerColor": [66,60,60],
+		"innerColor": [250,156,2],
+		"uniqueName": "Shooting Masters",
+		"uniques": ["Ranged attacks may be performed over obstacles", "[+1] Movement <for [Ranged] units>", "[+20]% Strength <for [Ranged] units>"],
+		"cities": ["Quincyopolis","Monkey Meadow","Las Quincies","Quncynshire","Quincyheim","Quincyland","New Quincy","Neo Quincy","Monkey Valley","Lil' Quincopolis","Buenos Quincy"]
 	},
 
 	{
-		"name": "The New Movement",
-		"leaderName": "Anton Slavik",
+		"name": "Naval Academy",
+		"leaderName": "Admiral Brickell",
 		"preferredVictoryType": "Domination",
 
-		"startIntroPart1": "Sample text.",
-		"startIntroPart2": "Sample text",
-		"declaringWar": "It is in  my Intentions to spread the word of Nod into your land.",
-		"attacked": "Pitiful fool! Now we shall destroy you!",
-		"defeated": "I see for the black hand has been unworthy to serve Kane.",
-		"introduction": "If you would stay out of our way then you might live to tell your tale.",
-		"tradeRequest": "I would be grateful if you agreed on the following proposal.",
-		"outerColor": [139,0,0],
+		"declaringWar": "Suffer my incredible naval prowess!",
+		"attacked": "You dare?! Very well! Only one of us is winning.",
+		"defeated": "...Let's not bring this up when the Contested Territory ends.",
+		"introduction": "I take it you've heard of the queen of the seas - that is me.",
+		"tradeRequest": "Alright, I don't wanna do this, but if I plan on winning then I guess I have to.",
+		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
-		"uniqueName": "Purification",
-		"uniques": ["No damage penalty for wounded units <for [non-air] units>"],
-		"cities": ["Ketilsstaoir","Frooaross","Hraun","Geirhildarvatn","Dumbshaf","Leioolfsstaoir","Hraunsass","Mosfell","Geirmundarstaoir","Holmgaror","Selaeyrr",
-"Horga","Fellshverfi","Kalfborgara","Reykir inir efri","Bolstaor","Beruvikrhraun","Berghylr","Rauosgil"]
-	}
-]
+		"uniqueName": "Naval Supremacy",
+		"uniques": ["[Land] units gain the [Naval] promotion <upon turn end>", "Enables embarkation for land units", "Roads connect tiles across rivers"],
+		"cities": ["Spice Islands","Pirate Cove","Water Park Land","Sulfur Springs","Resort","Sunken Columns","Off the Coast","In the Coast","Dockside","Flooded Valley","Erosion"]
+	},
+	
+    {
+		"name": "COBRA",
+		"leaderName": "Jericho",
+		"preferredVictoryType": "Domination",
+
+		"declaringWar": "Nothing personal. Just following orders.",
+		"attacked": "Let's make this quick. I have a briefing at 9.",
+		"defeated": "Good job on the operation, comrade. But next time I won't hold back.",
+		"introduction": "The name's Jericho. Agent Jericho.",
+		"tradeRequest": "Alright, let's make a deal.",
+		"outerColor": [0,0,0],
+		"innerColor": [222,18,0],
+		"uniqueName": "Secret Agent's Policies",
+		"uniques": ["[2] Free Social Policies <upon declaring friendship>", "[3] Free Social Policies <upon founding a city>", "Free Social Policy <upon constructing [Culture]>"],
+		"cities": ["Cobra HQ", "Area 52", "MIB HQ", "Area 53", "Salmon Falls", "Inconspicious Pizza Place", "Inconspicious Donut Place", "Area 54", "Shooting Range", "Area 55"]
+	},
+
