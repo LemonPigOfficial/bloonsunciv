@@ -2,7 +2,7 @@
 //Special Promotions
 	{
 		"name": "Sniper",
-		"uniques": ["Can see invisible [non-air] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[+200]% Strength <vs [Infantry] units> <when attacking>"],
+		"uniques": ["Can see invisible [Military] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+300]% Strength <vs [Air Vehicle] units> <when attacking>"],
 	},
 	{
 		"name": "Magic",
@@ -12,6 +12,10 @@
 		"name": "Naval",
 		"uniques": ["Eliminates combat penalty for attacking over a river", "[+20]% Strength <when [Embarked]>", "May attack when embarked"],
 	},
+	{
+		"name": "Submarine",
+		"uniques": ["[+25]% Strength <when attacking>", "Invisible to non-adjacent units"]
+	}
 	{
 		"name": "Plane",
 		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]

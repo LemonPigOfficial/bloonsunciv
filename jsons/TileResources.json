@@ -72,7 +72,7 @@
 	{
 		"name": "Blooranium",
 		"resourceType": "Strategic",
-		"revealedBy": "Laser Technology",
+		"revealedBy": "Advanced Machinery",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Quarry",

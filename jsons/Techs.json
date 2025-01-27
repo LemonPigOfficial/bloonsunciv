@@ -40,5 +40,71 @@
 				"name": "Military Budget",
 				"row": 10,
 			},
+			{
+				"name": "Mining",
+				"row": 10,
+			},
+		]
+	},
+	{
+		"columnNumber": 2,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Monkey Industry",
+				"row": 2,
+			},
+			{
+				"name": "Battle Buildings",
+				"row": 4,
+			},
+			{
+				"name": "Bloontonium Oil",
+				"row": 6,
+			},
+			{
+				"name": "Naval Research",
+				"row": 8,
+				"uniques": ["Enables embarkation for land units","Starting tech <for [Naval Academy] Civilizations>"]
+			},
+			{
+				"name": "Monkey Arts",
+				"row": 10,
+			},
+		]
+	},
+	{
+		"columnNumber": 3,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Advanced Monkeys",
+				"row": 2,
+			},
+			{
+				"name": "Naval Warfare",
+				"row": 4,
+			},
+			{
+				"name": "Advanced Tactics",
+				"row": 6,
+				"uniques": ["[Great General] is earned [+50]% faster"]
+			},
+			{
+				"name": "Monkeynomics",
+				"row": 8,
+				"uniques": ["[+3 Gold, +3 Production] [in all cities]", "[Great Merchant] is earned [+50]% faster"]
+			},
+			{
+				"name": "Banana Indulgence",
+				"row": 10,
+				"uniques": ["[-60]% unhappiness from the number of cities <if [Food] is constructed in all [Your] cities>"]
+			},
 		]
 	},

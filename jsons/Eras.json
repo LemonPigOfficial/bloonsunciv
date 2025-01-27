@@ -3,7 +3,7 @@
         "name": "Contested Territory",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1, 
-        "startingWorkerCount": 0,
+        "startingWorkerCount": 1,
         "startingMilitaryUnitCount": 1,
         "startingMilitaryUnit": "Dart Monkey",
         "settlerPopulation": 1,
@@ -11,6 +11,7 @@
         "embarkDefense": 3,
         "startPercent": 0,
         "citySound": "cityAncient",
+		"uniques": ["Starting in this era disables religion"]
         "iconRGB": [255, 87, 35]
     }
 ]

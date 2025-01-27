@@ -1,4 +1,120 @@
-[
+// Great People
+	{
+		"name": "Great Priest",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "Can instantly construct a [Great Temple] improvement <by consuming this unit>",
+            "Great Person - [Culture]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Scientist",
+		"unitType": "Civilian",
+		"uniques": ["Can hurry technology research",
+            "Can instantly construct a [Primary Mastery] improvement <by consuming this unit>",
+            "Great Person - [Science]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Merchant",
+		"unitType": "Civilian",
+		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
+            "Can instantly construct a [Monkey Wall Street] improvement <by consuming this unit>",
+			"Great Person - [Gold]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great Engineer",
+		"unitType": "Civilian",
+		"uniques": ["Can speed up construction of a building",
+            "Can instantly construct a [Banana Central] improvement <by consuming this unit>",
+            "Great Person - [Production]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},
+	{
+		"name": "Great General",
+		"unitType": "Civilian",
+		"uniques": [
+            "Empire enters a [8]-turn Golden Age <by consuming this unit>",
+            "[+15]% Strength bonus for [Military] units within [2] tiles",
+            "Can instantly construct a [Monkey Citadel] improvement <by consuming this unit>",
+			"Can be earned through combat",
+			"Great Person - [War]", "Unbuildable", "Uncapturable"],
+		"movement": 2
+	},[
+//Bloons
+
+    {
+		"name": "Red Bloon",
+		"unitType": "Bloon",
+		"movement": 5,
+		"strength": 10,
+		"cost": 30,
+		"attackSound": "whoosh"
+	},
+    {
+		"name": "Pink Bloon",
+		"unitType": "Bloon",
+		"movement": 10,
+		"strength": 30,
+		"cost": 60,
+		"attackSound": "whoosh"
+	},
+    {
+		"name": "Camo Blue Bloon",
+		"unitType": "Bloon",
+		"movement": 7,
+		"strength": 15,
+		"cost": 60,
+        "uniques": ["Invisible to others"],
+		"attackSound": "whoosh"
+	},
+    {
+		"name": "Lead Bloon",
+		"unitType": "Bloon",
+		"movement": 2,
+		"strength": 15,
+		"cost": 60,
+        "uniques": ["[+100]% Strength <when defending>"],
+		"attackSound": "metalhit"
+	},
+    {
+		"name": "Ceramic Bloon",
+		"unitType": "Bloon",
+		"movement": 2,
+		"strength": 40,
+		"cost": 60,
+		"attackSound": "whoosh"
+	},
+    {
+		"name": "MOAB",
+		"unitType": "Bloon",
+		"movement": 3,
+		"strength": 50,
+		"cost": 500,
+        "uniques": ["Triggers a global alert upon completion","[+300]% Strength <when defending>","Only available <on [Impoppable] difficulty>"],
+		"attackSound": "whoosh"
+	},
+    {
+		"name": "DDT",
+		"unitType": "Bloon",
+		"movement": 9,
+		"strength": 50,
+		"cost": 1500,
+        "uniques": ["Triggers a global alert upon completion","[+900]% Strength <when defending>","Invisible to others","Only available <on [Impoppable] difficulty>"],
+		"attackSound": "metalhit"
+	},
+    {
+		"name": "ZOMG",
+		"unitType": "Bloon",
+		"movement": 3,
+		"strength": 90,
+		"cost": 1000,
+        "uniques": ["Triggers a global alert upon completion","[+400]% Strength <when defending>","Only available <on [Impoppable] difficulty>"],
+		"attackSound": "whoosh"
+	},
+//Monkeys 	
     {
         "name": "Mayor Monkey",
         "unitType": "Civilian",
@@ -20,7 +136,7 @@
 		"strength": 1,
         "range": 1,
 		"rangedStrength": 2,
-		"cost": 30,
+		"cost": 25,
 		"upgradesTo": "Crossbow Monkey",
         "uniques": ["[This Unit] upgrades for free"],
 		"obsoleteTech": "Advanced Monkeys",
@@ -35,7 +151,7 @@
 		"strength": 2,
         "range": 2,
 		"rangedStrength": 2,
-        "cost": 50,
+        "cost": 35,
 		"attackSound": "metalhit",
 		"upgradesTo": "Fleet Privateer",
 		"promotions": ["Naval"],
@@ -52,7 +168,7 @@
 		"rangedStrength": 2,
 		"cost": 50,
 		"attackSound": "arrow"
-        "uniques": ["Can see invisible [Infantry] units", "[+2] Sight"]
+        "uniques": ["Can see invisible [Land] units", "[+2] Sight"]
 	},
     {
 		"name": "Buccaneer Monkey",
@@ -70,11 +186,11 @@
 		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 2,
-		"cost": 50,
+		"cost": 60,
 		"attackSound": "metalhit",
 		"obsoleteTech": "Advanced Monkeys",
 		"upgradesTo": "Bomb Ninja",
-        "uniques": ["Can see invisible [Infantry] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[This Unit] upgrades for free"]
+        "uniques": ["Can see invisible [Land] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[This Unit] upgrades for free"]
 	},
     {
 		"name": "COBRA Monkey",
@@ -87,7 +203,7 @@
 		"rangedStrength": 8,
 		"cost": 90,
 		"attackSound": "shot",
-        "uniques": ["Can see invisible [Infantry] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "May Paradrop up to [3] tiles from inside friendly territory"]
+        "uniques": ["Can see invisible [Military] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "May Paradrop up to [3] tiles from inside friendly territory"]
 	},
     {
 		"name": "Monkey Ace",
@@ -95,7 +211,7 @@
 		"requiredTech": "Bloontonium Oil",
 		"movement": 10,
 		"strength": 10,
-        "range": 3,
+        "range": 5,
 		"rangedStrength": 20,
 		"cost": 230,
 		"attackSound": "machinegun",
@@ -103,7 +219,20 @@
 		"obsoleteTech": "Advanced Machinery",
 		"upgradesTo": "Bomber Ace",
 		"promotions": ["Plane"],
-        "uniques": ["Can see invisible [Infantry] units", "[This Unit] upgrades for free"],
+        "uniques": ["Can see invisible [Land] units", "[This Unit] upgrades for free"],
+	},
+    {
+		"name": "Heli Pilot",
+		"unitType": "Helicopter",
+		"requiredTech": "Bloontonium Oil",
+		"movement": 10,
+		"strength": 40,
+		"cost": 210,
+		"attackSound": "machinegun",
+		"requiredResource": "Bloontonium",
+		"obsoleteTech": "Advanced Machinery",
+		"upgradesTo": "Apache Dartship",
+        "uniques": ["[This Unit] upgrades for free"],
 	},
     {
 		"name": "Sniper Monkey",
@@ -137,7 +266,7 @@
 	},
     {
 		"name": "Wizard Monkey",
-		"unitType": "Infantry",
+		"unitType": "Magic",
 		"requiredTech": "Magic Studies",
 		"movement": 2,
 		"strength": 2,
@@ -146,20 +275,52 @@
         "cost": 70,
 		"attackSound": "whoosh",
 		"upgradesTo": "Dragon Wizard",
-		"promotions": ["Magic"],
-        "uniques": ["Can see invisible [Infantry] units", "[This Unit] upgrades for free"]
+		"obsoleteTech": "Advanced Monkeys",
+        "uniques": ["Can see invisible [Land] units", "[This Unit] upgrades for free"]
 	},
     {
 		"name": "Druid Monkey",
-		"unitType": "Infantry",
+		"unitType": "Magic",
 		"requiredTech": "Magic Studies",
 		"movement": 2,
 		"strength": 6,
         "cost": 70,
 		"attackSound": "whoosh",
 		"upgradesTo": "Jungle Druid",
-		"promotions": ["Magic"],
+		"obsoleteTech": "Advanced Monkeys",
         "uniques": ["May travel on Water tiles without embarking", "[This Unit] upgrades for free"]
+	},
+	{
+		"name": "Monkey Sub",
+		"unitType": "Water Vehicle",
+		"requiredTech": "Naval Research",
+		"movement": 5,
+		"strength": 25,
+        "range": 4,
+		"rangedStrength": 30,
+		"cost": 305,
+		"requiredTech": "Naval Warfare",
+		"upgradesTo": "Missile Sub",
+		"requiredResource": "Bloontonium",
+		"uniques": ["[This Unit] upgrades for free"],
+		"promotions": ["Submarine"],
+		"obsoleteTech": "Advanced Machinery",
+		"attackSound": "torpedo"
+	},
+	{
+		"name": "Destroyer",
+		"unitType": "Water Vehicle",
+		"movement": 5,
+		"strength": 40,
+		"range": 6,
+		"rangedStrength": 35,
+		"cost": 185,
+		"requiredResource": "Bloontonium",
+		"requiredTech": "Naval Warfare",
+		"obsoleteTech": "Advanced Machinery",
+		"upgradesTo": "Aircraft Carrier",
+		"uniques": ["[This Unit] upgrades for free", "Can see invisible [Water Vehicle] units"],
+		"attackSound": "shipguns"
 	},
     {
 		"name": "Bomb Ninja",
@@ -169,7 +330,7 @@
 		"strength": 10,
 		"cost": 95,
 		"attackSound": "metalhit",
-        "uniques": ["Can see invisible [Infantry] units", "Invisible to non-adjacent units", "[+200]% Strength <vs cities>"]
+        "uniques": ["Can see invisible [Military] units", "Invisible to non-adjacent units", "[+200]% Strength <vs cities> <when attacking>"]
 	},
     {
 		"name": "Monkey Pirate",
@@ -177,7 +338,7 @@
 		"requiredTechTech": "Advanced Monkeys",
 		"movement": 3,
 		"strength": 10,
-        "cost": 110,
+        "cost": 80,
 		"attackSound": "metalhit",
         "uniques": ["May enter foreign tiles without open borders"]
 		"promotions": ["Naval"],
@@ -190,9 +351,9 @@
 		"strength": 3,
         "range": 2,
 		"rangedStrength": 6,
-		"cost": 110,
+		"cost": 80,
 		"attackSound": "metalhit",
-        "uniques": ["Can see invisible [Infantry] units", "[+2] Sight"]
+        "uniques": ["Can see invisible [Military] units", "[+2] Sight"]
 	},
     {
 		"name": "Shrapnel Sniper",
@@ -205,7 +366,7 @@
 		"cost": 100,
 		"attackSound": "shot",
 		"promotions": ["Sniper"],
-        "uniques": ["[+5] Sight", "[+100]% Strength <vs [Embarked] units> <when attacking>"]
+        "uniques": ["[+5] Sight", "[+100]% Strength <vs [Air Vehicle] units> <when attacking>"]
 	},
     {
 		"name": "Bomber Ace",
@@ -213,12 +374,89 @@
 		"requiredTech": "Advanced Machinery",
 		"movement": 10,
 		"strength": 20,
-        "range": 4,
+        "range": 6,
 		"rangedStrength": 80,
 		"cost": 430,
 		"attackSound": "bombing",
-		"requiredResource": "Bloontonium",
+		"requiredResource": "Blooranium",
 		"promotions": ["Plane"],
-        "uniques": ["Can see invisible [Infantry] units", "[+200]% Strength <vs [Infantry] units> <when attacking>"],
+        "uniques": ["Can see invisible [Military] units", "[+200]% Strength <vs [Infantry] units> <when attacking>"],
+	},
+    {
+		"name": "Dragon Wizard",
+		"unitType": "Magic",
+		"requiredTech": "Advanced Monkeys",
+		"movement": 2,
+		"strength": 4
+        "range": 2,
+		"rangedStrength": 15
+        "cost": 100,
+		"attackSound": "whoosh",
+		"promotions": ["Magic"],
+        "uniques": ["Can see invisible [Land] units", "Ranged attacks may be performed over obstacles"]
+	},
+    {
+		"name": "Jungle Druid",
+		"unitType": "Magic",
+		"requiredTech": "Advanced Monkeys",
+		"movement": 5,
+		"strength": 20,
+        "cost": 95,
+		"attackSound": "whoosh",
+		"promotions": ["Magic"],
+        "uniques": ["May travel on Water tiles without embarking", "Invisible to others <in [Jungle] tiles>"]
+	},
+	{
+		"name": "Missile Sub",
+		"unitType": "Water Vehicle",
+		"movement": 5,
+		"strength": 35,
+        "range": 4,
+		"rangedStrength": 40,
+		"cost": 505,
+		"requiredTech": "Advanced Machinery",
+		"requiredResource": "Blooranium",
+		"promotions": ["Submarine"],
+		"uniques": ["Can carry [3] [Sub Missile] units"],
+		"attackSound": "torpedo"
+	},
+    {
+		"name": "Apache Dartship",
+		"unitType": "Helicopter",
+		"requiredTech": "Advanced Machinery",
+		"movement": 10,
+		"strength": 60,
+		"cost": 510,
+		"attackSound": "machinegun",
+		"requiredResource": "Blooranium",
+        "uniques": ["Can see invisible [non-air] units", "Invisible to others"]
+	},
+	//BOMBS BOMBS BOMBS
+	{
+		"name": "Sub Missile",
+		"unitType": "Bomb",
+		"movement": 1,
+		"strength": 90,
+		"rangedStrength": 90,
+		"requiredResource": "Bloontonium",
+		"range": 8,
+		"cost": 150,
+		"requiredTech": "Advanced Machinery",
+		"uniques": ["[-100]% maintenance costs"],
+		"attackSound": "missile"
+	},
+	//END OF BOMBS
+	{
+		"name": "Aircraft Carrier",
+		"unitType": "Water Vehicle",
+		"movement": 5,
+		"strength": 60,
+		"range": 6,
+		"rangedStrength": 35,
+		"cost": 495,
+		"requiredResource": "Blooranium",
+		"requiredTech": "Advanced Machinery",
+		"uniques": ["Can carry [3] [Aircraft] units", "Can see invisible [Water Vehicle] units"],
+		"attackSound": "shipguns"
 	},
 ]
