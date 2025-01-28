@@ -15,7 +15,6 @@
 		"uniques": ["Ranged attacks may be performed over obstacles", "[+1] Movement <for [Ranged] units>", "[+20]% Strength <for [Ranged] units>"],
 		"cities": ["Quincyopolis","Monkey Meadow","Las Quincies","Quncynshire","Quincyheim","Quincyland","New Quincy","Neo Quincy","Monkey Valley","Lil' Quincopolis","Buenos Quincy"]
 	},
-
 	{
 		"name": "Naval Academy",
 		"leaderName": "Admiral Brickell",
@@ -32,7 +31,6 @@
 		"uniques": ["[Land] units gain the [Naval] promotion <upon turn end>", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
 		"cities": ["Spice Islands","Pirate Cove","Water Park Land","Sulfur Springs","Resort","Sunken Columns","Off the Coast","In the Coast","Dockside","Flooded Valley","Erosion"]
 	},
-	
     {
 		"name": "COBRA",
 		"leaderName": "Jericho",
@@ -49,4 +47,52 @@
 		"uniques": ["[2] Free Social Policies <upon declaring friendship>", "[3] Free Social Policies <upon founding a city>", "When conquering an encampment, earn [5] Gold and recruit a Barbarian unit"],
 		"cities": ["Cobra HQ", "Area 52", "MIB HQ", "Area 53", "Salmon Falls", "Inconspicious Pizza Place", "Inconspicious Donut Place", "Area 54", "Shooting Range", "Area 55"]
 	},
+	{
+		"name": "Super Monkey Fan Club",
+		"adjective": ["Super Monkey Fans"],
+		"cityStateType": "Cultured",
 
+		"declaringWar": "You leave us no choice. Activate super mode!",
+		"attacked": "Alright gang! It's fighting time.",
+		"defeated": "We were too weak... I'm sorry, super-kun...",
+		"outerColor": [255, 0, 0],
+		"innerColor": [10,10,200],
+		"cities": ["Super Monkey Fan Treehouse"]
+	},
+	{
+		"name": "Mermonkey Alliance",
+		"adjective": ["Mermonkeys"],
+		"cityStateType": "Maritime",
+
+		"declaringWar": "You'll drown in your sorrows!",
+		"attacked": "You can't fight water with fire.",
+		"defeated": "This was just a taste of our power. See you same time next month?",
+		"outerColor": [200, 0, 200],
+		"innerColor": [0,0,255],
+		"cities": ["Mermonkey Cove"]
+	},
+	{
+		"name": "Monkey Worker's Union",
+		"adjective": ["Unionized Monkeys"],
+		"cityStateType": "Mercantile",
+
+		"declaringWar": "Look, if you could just let us win this time, we've lost 4 Contested Territories in a row...",
+		"attacked": "Why do they always target us? Oh well...",
+		"defeated": "It was bound to happen... so much for those 10 days of mandated vacation.",
+		"outerColor": [0,0,0],
+		"innerColor": [255,255,255],
+		"cities": ["Banana Market"]
+	},
+	{
+		"name": "Monkey Marines Training Program",
+		"adjective": ["Marines in Training"],
+		"cityStateType": "Militaristic",
+
+		"declaringWar": "All weapons! Fire!",
+		"attacked": "You cannot out-gun the marines!",
+		"defeated": "You're lucky we can't use real weapons in this... ugh. Whatever.",
+		"outerColor": [0,0,0],
+		"innerColor": [0,0,255],
+		"cities": ["Marines' Camp"]
+	}
+]

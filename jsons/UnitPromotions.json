@@ -1,23 +1,255 @@
 [
-//Special Promotions
 	{
 		"name": "Sniper",
-		"uniques": ["Can see invisible [Military] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[+200]% Strength <vs [Infantry] units> <when attacking>", "[+300]% Strength <vs [Air Vehicle] units> <when attacking>"],
-	},
-	{
-		"name": "Magic",
-		"uniques": ["Can see over obstacles", "[+200]% Strength <vs cities> <when attacking>"],
+		"uniques": ["Can see invisible [Military] units", "Invisible to non-adjacent units <in [Rough Terrain] tiles>", "[+200]% Strength <vs [Infantry] units> <when attacking>","[+200]% Strength <vs [Magic] units> <when attacking>", "[+300]% Strength <vs [Air Vehicle] units> <when attacking>"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
 	},
 	{
 		"name": "Naval",
 		"uniques": ["Eliminates combat penalty for attacking over a river", "[+20]% Strength <when [Embarked]>", "May attack when embarked"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
 	},
 	{
 		"name": "Submarine",
-		"uniques": ["[+25]% Strength <when attacking>", "Invisible to non-adjacent units"]
-	}
+		"uniques": ["[+25]% Strength <when attacking>", "Invisible to non-adjacent units"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
+	},
 	{
 		"name": "Plane",
-		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"]
+		"uniques": ["Aircraft", "[+4] Sight", "Can see over obstacles"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
+	},
+	{
+		"name": "Interception",
+		"uniques": ["[+40]% chance to intercept air attacks", "[+10] Air Interception Range"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
+	},
+	{
+		"name": "Heal Instantly",
+		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Magic","Infantry","Helicopter","Air Vehicle","Water Vehicle","Weapon"],
+		"innerColor": [195,53,43],
+		"outerColor": [253,236,234]
+	},
+	{
+		"name": "Accuracy I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Accuracy II",
+		"prerequisites": ["Accuracy I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Accuracy III",
+		"prerequisites": ["Accuracy II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Barrage I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Barrage II",
+		"prerequisites": ["Barrage I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Barrage III",
+		"prerequisites": ["Barrage II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+
+	{
+		"name": "Volley",
+		"prerequisites": ["Accuracy I","Barrage I"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Weapon","Magic"]
+	},
+	{
+		"name": "Shock I",
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Shock II",
+		"prerequisites": ["Shock I"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Shock III",
+		"prerequisites": ["Shock II"],
+		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+
+	{
+		"name": "Drill I",
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Drill II",
+		"prerequisites": ["Drill I"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Drill III",
+		"prerequisites": ["Drill II"],
+		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Charge",
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+33]% Strength <vs [Wounded] units>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Besiege", 
+		"prerequisites": ["Shock II","Drill II"],
+		"uniques": ["[+50]% Strength <vs cities>"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Blitz",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Woodsborn",
+		"prerequisites": ["Shock III","Drill III"],
+		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Medic",
+		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
+		"uniques": ["All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Medic II",
+		"prerequisites": ["Medic"],
+		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
+		"unitTypes": ["Infantry"]
+	},
+	{
+		"name": "Boarding Party I",
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Boarding Party II",
+		"prerequisites": ["Boarding Party I"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Boarding Party III",
+		"prerequisites": ["Boarding Party II"],
+		"uniques": ["[+15]% Strength <vs [Water] units>"],
+		"unitTypes": ["Water Vehicle"]
+	},
+
+	{
+		"name": "Coastal Raider I",
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Coastal Raider II",
+		"prerequisites": ["Coastal Raider I"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Coastal Raider III",
+		"prerequisites": ["Coastal Raider II"],
+		"uniques": ["[+20]% Strength <vs cities>", "Earn [34]% of the damage done to [City] units as [Gold]"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Landing Party",
+		"uniques": ["Eliminates combat penalty for attacking across a coast"],
+		"unitTypes": ["Water Vehicle"]
+	},
+	{
+		"name": "Siege I",
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Air Vehicle"]
+	},
+	{
+		"name": "Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+33]% Strength <vs cities>"],
+		"unitTypes": ["Air Vehicle"]
+	},
+	{
+		"name": "Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+34]% Strength <vs cities>"],
+		"unitTypes": ["Air Vehicle"]
+	},
+	{
+		"name": "Evasion I",
+		"prerequisites": ["Siege II", "Bombardment II"],
+		"uniques": ["Damage taken from interception reduced by [40]%"],
+		"unitTypes": ["Air Vehicle"]
+	},
+	{
+		"name": "Evasion II",
+		"prerequisites": ["Evasion I"],
+		"uniques": ["Damage taken from interception reduced by [40]%"],
+		"unitTypes": ["Air Vehicle"]
+	},
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Vehicle","Water Vehicle"]
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+33]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Vehicle","Water Vehicle"]
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+34]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Vehicle","Water Vehicle"]
+	},
+	{
+		"name": "Cover I",
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Infantry, Weapon, Magic"]
+	},
+	{
+		"name": "Cover II",
+		"prerequisites": ["Cover I"],
+		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Infantry, Weapon, Magic"]
+	},
+
+	{
+		"name": "March",
+		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Infantry, Weapon, Magic"]
 	}
 ]

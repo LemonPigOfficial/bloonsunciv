@@ -16,7 +16,7 @@
 		"gold": 3,
 		"requiredTech": "Banana Markets",
 		"maintenance": 1,
-		"cost": 40,
+		"cost": 40
 	},
 	{
 		"name": "Trade Center",
@@ -25,7 +25,7 @@
 		"culture": 2,
 		"production": 2,
 		"requiredTech": "Banana Markets",
-		"cost": 60,
+		"cost": 60
 	},
 	{
 		"name": "Banana Greenhouse",
@@ -34,7 +34,7 @@
 		"culture": 3,
 		"requiredTech": "Banana Plantations",
 		"maintenance": 1,
-		"cost": 50,
+		"cost": 50
 	},
 	{
 		"name": "Science Academy",
@@ -43,14 +43,14 @@
 		"requiredTech": "Monkellectualism",
 		"maintenance": 1,
 		"isNationalWonder": true,
-		"cost": 200,
+		"cost": 200
 	},
 	{
 		"name": "Druid Grove",
 		"food": 4,
 		"culture": 4,
 		"requiredTech": "Magic Studies",
-		"cost": 50,
+		"cost": 50
 	},
 	//Column 2
 	{
@@ -61,7 +61,7 @@
 		"requiredTech": "Monkey Industry",
 		"maintenance": 2,
 		"uniques": ["Must be on [Plantation]"],
-		"cost": 70,
+		"cost": 70
 	},
 	{
 		"name": "Dart Factory",
@@ -71,7 +71,7 @@
 		"uniques": ["Must be on [Bloontonium]"],
 		"maintenance": 2,
 		"cityStrength": 2,
-		"cost": 80,
+		"cost": 80
 	},
 	{
 		"name": "Quincy Action Figure Factory",
@@ -84,7 +84,7 @@
 		"requiredTech": "Monkey Industry",
 		"uniques": ["Must be on [Bloontonium]","Limited to [3] per Civilization"],
 		"maintenance": 1,
-		"cost": 160,
+		"cost": 160
 	},
 	{
 		"name": "Bloon Area Denial System",
@@ -94,7 +94,7 @@
 		"uniques": ["Must be on [Bloontonium]"],
 		"maintenance": 2,
 		"cityStrength": 6,
-		"cost": 100,
+		"cost": 100
 	},
 	{
 		"name": "Training Lab",
@@ -103,7 +103,7 @@
 		"requiredTech": "Battle Buildings",
 		"uniques": ["[+20]% Production when constructing [Infantry] units [in this city]","Remove extra unhappiness from annexed cities"],
 		"maintenance": 2,
-		"cost": 90,
+		"cost": 90
 	},
 	{
 		"name": "Sea Barracks",
@@ -114,7 +114,7 @@
 		"requiredTech": "Battle Buildings",
 		"uniques": ["New [Infantry] units start with [+10] Experience [in this city]","[+20]% Production when constructing [Infantry] units [in this city]","Remove extra unhappiness from annexed cities"],
 		"maintenance": 2,
-		"cost": 50,
+		"cost": 110
 	},
 	{
 		"name": "Sun God Shrine",
@@ -123,7 +123,7 @@
 		"requiredTech": "Monkey Arts",
 		"maintenance": 1,
 		"uniques": ["[Great Priest] is earned [+40]% faster"],
-		"cost": 100,
+		"cost": 100
 	},
 	{
 		"name": "Magic Academy",
@@ -132,7 +132,7 @@
 		"requiredTech": "Monkey Arts",
 		"maintenance": 1,
 		"uniques": ["New [Magic] units start with [+15] Experience [in this city]"],
-		"cost": 70,
+		"cost": 70
 	},
 	{
 		"name": "COBRA Training",
@@ -143,7 +143,7 @@
 		"isNationalWonder": true,
 		"requiredTech": "Monkey Arts",
 		"uniques": ["[+40]% Production when constructing [Military] units [in this city]","New [Infantry] units start with [+40] Experience [in this city]"],
-		"cost": 280,
+		"cost": 280
 	},
 // Column 3
 	{
@@ -153,17 +153,7 @@
 		"requiredTech": "Banana Indulgence",
 		"maintenance": 1,
 		"uniques": ["Must be on [Plantation]"],
-		"cost": 40,
-	},
-	{
-		"name": "Naval Factory",
-		"uniqueTo": "Naval Academy",
-		"science": 1,
-		"production": 3,
-		"requiredTech": "Naval Warfare",
-		"uniques": ["New [Water Vehicle] units start with [+30] Experience [in this city]","[+30]% Production when constructing [Water Vehicle] units [in this city]"],
-		"maintenance": 3,
-		"cost": 110,
+		"cost": 40
 	},
 	{
 		"name": "Training Post",
@@ -173,6 +163,108 @@
 		"uniques": ["[+50]% Production when constructing [Infantry] units [in this city]","New [Infantry] units start with [+15] Experience [in this city]"],
 		"maintenance": 2,
 		"isNationalWonder": true,
-		"cost": 190,
+		"cost": 190
+	},
+// Column 4
+	{
+		"name": "Banana Manufactorum",
+		"happiness": 6,
+		"culture": 4,
+		"gold": 4,
+		"food": 6,
+		"production": 6,
+		"requiredTech": "Banana Republic",
+		"maintenance": 2,
+		"isNationalWonder": true,
+		"uniques": ["Must be on [Plantation]"],
+		"cost": 400
+	},
+	{
+		"name": "Monkin' Donuts Headquarters",
+		"science": 8,
+		"culture": 8,
+		"production": 8,
+		"requiredTech": "Banana Indulgence",
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"cost": 380
+	},
+	{
+		"name": "Naval Factory",
+		"uniqueTo": "Naval Academy",
+		"science": 1,
+		"production": 3,
+		"requiredTech": "Naval Warfare",
+		"uniques": ["New [Water Vehicle] units start with [+30] Experience [in this city]","[+30]% Production when constructing [Water Vehicle] units [in this city]"],
+		"maintenance": 3,
+		"cost": 110
+	},
+	{
+		"name": "MOAB Assassin",
+		"culture": 1,
+		"requiredTech": "Heavy Weapons",
+		"uniques": ["Must be on [Bloontonium]"],
+		"maintenance": 3,
+		"cityStrength": 7,
+		"cost": 100
+	},
+// Column 5
+	{
+		"name": "Banana Terrace Farms",
+		"culture": 7,
+		"food": 7,
+		"production": 7,
+		"requiredTech": "Bountiful Harvest",
+		"maintenance": 2,
+		"uniques": ["Must be on [Plantation]"],
+		"cost": 500
+	},
+//Column 6
+	{
+		"name": "TV Network",
+		"science": 8,
+		"happiness": 8,
+		"requiredTech": "Broadcasting",
+		"maintenance": 1,
+		"isNationalWonder": true,
+		"cost": 380
+	},
+	{
+		"name": "Propaganda Center",
+		"replaces": "TV Network",
+		"uniqueTo": "COBRA",
+		"production": 10,
+		"happiness": 10,
+		"requiredTech": "Broadcasting",
+		"maintenance": 3,
+		"isNationalWonder": true,
+		"cost": 370
+	},
+	{
+		"name": "Bomb Blitz Turret",
+		"culture": 1,
+		"requiredTech": "Demolition",
+		"uniques": ["Must be on [Blooranium]"],
+		"maintenance": 3,
+		"cityStrength": 15,
+		"cost": 190
+	},
+	{
+		"name": "Bloontium Lab",
+		"science": 13,
+		"production": 7,
+		"requiredTech": "Bloontonium Core",
+		"maintenance": 2,
+		"uniques": ["Must be on [Bloontonium]"],
+		"isNationalWonder": true,
+		"cost": 800
+	},
+	{
+		"name": "Monkey Plaza",
+		"happiness": 11,
+		"gold": 3,
+		"requiredTech": "Festivals",
+		"maintenance": 1,
+		"cost": 300
 	},
 ]

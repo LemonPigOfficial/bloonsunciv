@@ -22,28 +22,34 @@
 		"techs": [
 			{
 				"name": "Banana Plantations",
-				"row": 2,
+				"prerequisites": ["Contested Territory"],
+				"row": 2
 			},
 			{
 				"name": "Banana Markets",
-				"row": 4,
+				"prerequisites": ["Contested Territory","Contested Territory"],
+				"row": 4
 			},
 			{
 				"name": "Monkellectualism",
-				"row": 6,
+				"prerequisites": ["Contested Territory"],
+				"row": 6
 			},
 			{
 				"name": "Magic Studies",
-				"row": 8,
+				"prerequisites": ["Contested Territory"],
+				"row": 8
 			},
 			{
 				"name": "Military Budget",
-				"row": 10,
+				"prerequisites": ["Contested Territory"],
+				"row": 10
 			},
 			{
 				"name": "Mining",
-				"row": 10,
-			},
+				"prerequisites": ["Contested Territory"],
+				"row": 10
+			}
 		]
 	},
 	{
@@ -55,25 +61,30 @@
 		"techs": [
 			{
 				"name": "Monkey Industry",
-				"row": 2,
+				"prerequisites": ["Banana Markets","Banana Plantations"],
+				"row": 2
 			},
 			{
 				"name": "Battle Buildings",
-				"row": 4,
+				"prerequisites": ["Military Budget","Mining"],
+				"row": 4
 			},
 			{
 				"name": "Bloontonium Oil",
-				"row": 6,
+				"prerequisites": ["Military Budget","Mining"],
+				"row": 6
 			},
 			{
 				"name": "Naval Research",
 				"row": 8,
+				"prerequisites": ["Military Budget"],
 				"uniques": ["Enables embarkation for land units","Starting tech <for [Naval Academy] Civilizations>"]
 			},
 			{
 				"name": "Monkey Arts",
-				"row": 10,
-			},
+				"prerequisites": ["Monkellectualism"],
+				"row": 10
+			}
 		]
 	},
 	{
@@ -85,26 +96,137 @@
 		"techs": [
 			{
 				"name": "Advanced Monkeys",
-				"row": 2,
+				"prerequisites": ["Battle Buildings","Magic Studies"],
+				"row": 2
 			},
 			{
-				"name": "Naval Warfare",
-				"row": 4,
+				"name": "Heavy Weapons",
+				"prerequisites": ["Battle Buildings","Military Budget","Bloontonium Oil"],
+				"row": 4
 			},
 			{
 				"name": "Advanced Tactics",
+				"prerequisites": ["Military Budget", "Monkey Arts"],
 				"row": 6,
 				"uniques": ["[Great General] is earned [+50]% faster"]
 			},
 			{
 				"name": "Monkeynomics",
 				"row": 8,
+				"prerequisites": ["Monkey Industry"],
 				"uniques": ["[+3 Gold, +3 Production] [in all cities]", "[Great Merchant] is earned [+50]% faster"]
 			},
 			{
 				"name": "Banana Indulgence",
+				"prerequisites": ["Monkey Arts"],
 				"row": 10,
 				"uniques": ["[-60]% unhappiness from the number of cities <if [Food] is constructed in all [Your] cities>"]
-			},
+			}
 		]
 	},
+	{
+		"columnNumber": 4,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Better Engineering",
+				"prerequisites": ["Monkeynomics","Battle Buildings"],
+				"row": 2
+			},
+			{
+				"name": "Naval Warfare",
+				"prerequisites": ["Naval Research","Bloontonium Oil"],
+				"row": 4
+			},
+			{
+				"name": "Spike Ball Manufacturing",
+				"prerequisites": ["Advanced Monkeys","Advanced Tactics"],
+				"row": 6
+			},
+			{
+				"name": "Airborne Warfare",
+				"row": 8,
+				"prerequisites": ["Advanced Tactics","Bloontonium Oil"]
+			},
+			{
+				"name": "Banana Republic",
+				"prerequisites": ["Banana Indulgence","Monkeynomics"],
+				"row": 10,
+				"uniques": ["[+5 Gold, +5 Production] [in all cities]"]
+			}
+		]
+	},
+	{
+		"columnNumber": 5,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Arcane Secrets",
+				"prerequisites": ["Advanced Monkeys","Banana Indulgence"],
+				"row": 2
+			},
+			{
+				"name": "Advanced Machinery",
+				"prerequisites": ["Advanced Monkeys","Advanced Tactics","Better Engineering"],
+				"row": 4
+			},
+			{
+				"name": "MOAB Shooting Range",
+				"prerequisites": ["Better Engineering","Advanced Monkeys"],
+				"row": 6
+			},
+			{
+				"name": "Cape Fabrication",
+				"row": 8,
+				"prerequisites": ["Airborne Warfare","Advanced Monkeys","Better Engineering"]
+			},
+			{
+				"name": "Bountiful Harvest",
+				"prerequisites": ["Better Engineering","Banana Republic"],
+				"uniques": ["[+10 Gold, +10 Production, +10 Science] [in all cities connected to capital] <when not at war>"],
+				"row": 10
+			}
+		]
+	},
+	{
+		"columnNumber": 6,
+		"era": "Contested Territory",
+		"techCost": 20,
+		"buildingCost": 40,
+		"wonderCost": 185,
+		"techs": [
+			{
+				"name": "Advanced Vehicles",
+				"prerequisites": ["Advanced Machinery","MOAB Shooting Range","Naval Warfare","Airborne Warfare"],
+				"row": 2
+			},
+			{
+				"name": "Broadcasting",
+				"prerequisites": ["Advanced Machinery"],
+				"row": 4
+			},
+			{
+				"name": "Demolition",
+				"prerequisites": ["Advanced Vehicles"],
+				"row": 6
+			},
+			{
+				"name": "Bloontonium Core",
+				"row": 8,
+				"prerequisites": ["Advanced Vehicles","Broadcasting"]
+			},
+			{
+				"name": "Festivals",
+				"prerequisites": ["Broadcasting","Bountiful Harvest"],
+				"uniques": ["[+30 Happiness, +30 Culture] [in all cities connected to capital] <when not at war>"],
+				"row": 10
+			}
+		]
+	}
+]

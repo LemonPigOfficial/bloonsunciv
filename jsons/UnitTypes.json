@@ -1,4 +1,4 @@
-[
+[[
     {
         "name": "Civilian",
         "movementType": "Land",
@@ -7,12 +7,17 @@
     {
         "name": "Magic",
         "movementType": "Land",
-		"uniques": ["Can see over obstacles", "[+200]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"uniques": ["Can see over obstacles", "[+200]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"]
     },
     {
         "name": "Infantry",
         "movementType": "Land",
 		"uniques": ["Never appears as a Barbarian unit"]
+    },
+    {
+        "name": "Weapon",
+        "movementType": "Land",
+		"uniques": ["Never appears as a Barbarian unit","[+100]% Strength <vs cities> <when attacking>","[+100]% Strength <vs [Water Vehicle] units> <when attacking>","[+100]% Strength <vs [Land] units> <when attacking>"]
     },
     {
         "name": "Air Vehicle",
@@ -22,7 +27,7 @@
     {
         "name": "Helicopter",
         "movementType": "Land",
-		"uniques": ["Never appears as a Barbarian unit","Can pass through impassable tiles","[+150]% Strength <vs [Air Vehicle] units> <when attacking>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"]
+		"uniques": ["Never appears as a Barbarian unit","May travel on Water tiles without embarking","Can pass through impassable tiles","[+150]% Strength <vs [Air Vehicle] units> <when attacking>", "No defensive terrain bonus", "Can move after attacking", "All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities"]
     },
     {
         "name": "Water Vehicle",
@@ -38,6 +43,6 @@
         "name": "Bloon",
         "movementType": "Land",
 		"uniques": ["Unavailable <for [Major] Civilizations>","Unavailable <for [City-State] Civilizations>","Self-destructs when attacking", "[-90]% Strength <vs cities>","No defensive terrain bonus"]
-    },
-    
+    }
+   ]
 ]

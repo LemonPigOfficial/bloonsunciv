@@ -1,5 +1,4 @@
 [
-	// Bonus resources
 	{
 		"name": "Healthy Bananas",
 		"resourceType": "Bonus",
@@ -42,8 +41,6 @@
 		"improvementStats": {"food": 1},
 		"uniques": ["Generated on every [10] tiles <in [{Featureless} {Coast}] tiles>"]
 	},
-
-	// Strategic resources
 	{
 		"name": "Bloontonium",
 		"resourceType": "Strategic",
@@ -86,14 +83,12 @@
 		"majorDepositAmount": {"sparse": 2, "default": 4, "abundant": 4},
 		"minorDepositAmount": {"sparse": 1, "default": 2, "abundant": 3}
 	},
-
-	// Luxury resources
 	{
 		"name": "Bloon Pelts",
 		"resourceType": "Luxury",
 		"terrainsCanBeFoundOn": ["Forest","Tundra"],
 		"gold": 2,
-		"improvement": "Spike Factory",
+		"improvement": "Farm",
 		"improvementStats": {"gold": 1},
 		"uniques": ["Generated with weight [40] <in [Tundra] Regions>",
 			"Generated with weight [10] <in [Forest] Regions>",
