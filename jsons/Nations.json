@@ -28,7 +28,7 @@
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"uniqueName": "Naval Supremacy",
-		"uniques": ["[Land] units gain the [Naval] promotion <upon turn end>", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
+		"uniques": ["All newly-trained [Land] units [in all cities] receive the [Naval] promotion", "Starts with [Naval Research]", "Receive triple Gold from Barbarian encampments and pillaging Cities"],
 		"cities": ["Spice Islands","Pirate Cove","Water Park Land","Sulfur Springs","Resort","Sunken Columns","Off the Coast","In the Coast","Dockside","Flooded Valley","Erosion"]
 	},
     {

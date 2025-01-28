@@ -78,7 +78,7 @@
 				"name": "Naval Research",
 				"row": 8,
 				"prerequisites": ["Military Budget"],
-				"uniques": ["Enables embarkation for land units","Starting tech <for [Naval Academy] Civilizations>"]
+				"uniques": ["Enables embarkation for land units"]
 			},
 			{
 				"name": "Monkey Arts",
