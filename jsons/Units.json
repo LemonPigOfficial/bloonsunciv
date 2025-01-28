@@ -141,6 +141,19 @@
         "uniques": ["Can see invisible [Land] units", "[+2] Sight"]
 	},
     {
+		"name": "Hunter Monkey",
+		"unitType": "Infantry",
+		"uniqueTo": "Siblings of Quincy",
+		"replaces": "Dart Monkey",
+		"movement": 2,
+		"strength": 1,
+        "range": 4,
+		"rangedStrength": 2,
+		"cost": 50,
+		"attackSound": "arrow",
+        "uniques": ["Can see invisible [Land] units", "[+2] Sight"]
+	},
+    {
 		"name": "Buccaneer Monkey",
 		"unitType": "Infantry",
 		"movement": 2,

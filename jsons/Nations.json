@@ -12,7 +12,7 @@
 		"outerColor": [66,60,60],
 		"innerColor": [250,156,2],
 		"uniqueName": "Shooting Masters",
-		"uniques": ["Ranged attacks may be performed over obstacles", "[+1] Movement <for [Ranged] units>", "[+20]% Strength <for [Ranged] units>"],
+		"uniques": ["Ranged attacks may be performed over obstacles", "All newly-trained [Land] units [in all cities] receive the [Woodsborn] promotion", "All newly-trained [Land] units [in all cities] receive the [Accuracy I] promotion"],
 		"cities": ["Quincyopolis","Monkey Meadow","Las Quincies","Quncynshire","Quincyheim","Quincyland","New Quincy","Neo Quincy","Monkey Valley","Lil' Quincopolis","Buenos Quincy"]
 	},
 	{
@@ -34,7 +34,7 @@
     {
 		"name": "COBRA",
 		"leaderName": "Jericho",
-		"preferredVictoryType": "Domination",
+		"preferredVictoryType": "Cultural",
 
 		"declaringWar": "Nothing personal. Just following orders.",
 		"attacked": "Let's make this quick. I have a briefing at 9.",
