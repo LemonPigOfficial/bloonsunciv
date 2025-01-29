@@ -118,14 +118,30 @@
 		"uniqueTo": "Naval Academy",
 		"replaces": "Dart Monkey",
 		"movement": 2,
-		"strength": 2,
+		"strength": 3,
         "range": 2,
-		"rangedStrength": 2,
-        "cost": 35,
+		"rangedStrength": 3,
+        "cost": 65,
 		"attackSound": "metalhit",
-		"upgradesTo": "Fleet Privateer",
 		"promotions": ["Naval"],
-        "uniques": ["[This Unit] upgrades for free"]
+		"upgradesTo": "Vice Admiral Monkey",
+		"obsoleteTech": "Naval Warfare",
+        "uniques": ["[This Unit] upgrades for free","[+40]% Strength <when [Embarked]>"]
+	},
+    {
+		"name": "Vice Admiral Monkey",
+		"unitType": "Infantry",
+		"uniqueTo": "Naval Academy",
+		"replaces": "Dart Monkey",
+		"movement": 3,
+		"strength": 15,
+        "range": 5,
+		"rangedStrength": 15,
+        "cost": 45,
+		"attackSound": "metalhit",
+		"promotions": ["Naval"],
+		"requiredTech": "Naval Warfare",
+        "uniques": ["[+100]% Strength <when [Embarked]>"]
 	},
     {
 		"name": "Archer Monkey",
@@ -136,22 +152,25 @@
 		"strength": 1,
         "range": 4,
 		"rangedStrength": 2,
-		"cost": 50,
+		"cost": 90,
 		"attackSound": "arrow",
-        "uniques": ["Can see invisible [Land] units", "[+2] Sight"]
+		"upgradesTo": "Crossbow Monkey",
+		"obsoleteTech": "Advanced Monkeys",
+        "uniques": ["Can see invisible [Land] units", "[This Unit] upgrades for free", "[+2] Sight"]
 	},
     {
 		"name": "Hunter Monkey",
 		"unitType": "Infantry",
+		"requiredTech": "Advanced Monkeys",
 		"uniqueTo": "Siblings of Quincy",
-		"replaces": "Dart Monkey",
+		"replaces": "Crossbow Monkey",
 		"movement": 2,
 		"strength": 1,
-        "range": 4,
-		"rangedStrength": 2,
-		"cost": 50,
+        "range": 8,
+		"rangedStrength": 10,
+		"cost": 190,
 		"attackSound": "arrow",
-        "uniques": ["Can see invisible [Land] units", "[+2] Sight"]
+        "uniques": ["Can see invisible [Military] units", "[9] Sight"]
 	},
     {
 		"name": "Buccaneer Monkey",

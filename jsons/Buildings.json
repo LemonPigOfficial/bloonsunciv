@@ -52,7 +52,6 @@
 		"requiredTech": "Magic Studies",
 		"cost": 50
 	},
-	//Column 2
 	{
 		"name": "Banana Cookie Factory",
 		"production": 3,
@@ -145,7 +144,6 @@
 		"uniques": ["[+40]% Production when constructing [Military] units [in this city]","New [Infantry] units start with [+40] Experience [in this city]"],
 		"cost": 280
 	},
-// Column 3
 	{
 		"name": "Monkin' Donuts",
 		"happiness": 4,
@@ -165,7 +163,6 @@
 		"isNationalWonder": true,
 		"cost": 190
 	},
-// Column 4
 	{
 		"name": "Banana Manufactorum",
 		"happiness": 6,
@@ -208,7 +205,6 @@
 		"cityStrength": 7,
 		"cost": 100
 	},
-// Column 5
 	{
 		"name": "Banana Terrace Farms",
 		"culture": 7,
@@ -219,7 +215,6 @@
 		"uniques": ["Must be on [Plantation]"],
 		"cost": 500
 	},
-//Column 6
 	{
 		"name": "TV Network",
 		"science": 8,
@@ -267,4 +262,15 @@
 		"maintenance": 1,
 		"cost": 300
 	},
+	{
+		"name": "Divine Sun God Temple",
+		"culture": 10,
+		"gold": 10,
+		"happiness": 10,
+		"requiredTech": "Festivals",
+		"maintenance": 5,
+		"uniques": ["Must be on [Plantation]","Triggers a global alert upon build start"],
+		"isWonder": true,
+		"cost": 1500
+	}
 ]
